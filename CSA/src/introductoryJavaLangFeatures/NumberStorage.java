@@ -38,7 +38,7 @@ public class NumberStorage {
 		System.out.println(z);
 		
 		/**
-		 * An identifier, for example a variable, is introduced with an declaration of its type.
+		 * An identifier, for example a variable, is introduced with a declaration of its type.
 		 * A variable is often initialized in its declaration .
 		 */
 		System.out.println("Below are the examples about the features of the built-in types in Java.\nFor more details about these features, refer to the JavaDoc comments below.");

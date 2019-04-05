@@ -9,7 +9,7 @@ The arrangement of notes and coding examples will follow the following outline.
 ## Objects, Classes, and Inheritance
 - Methods
 - Subclasses
--Abstract Classes
+- Abstract Classes
 - Interfaces
 ## Lists and Arrays
 - One-dimensional Arrays

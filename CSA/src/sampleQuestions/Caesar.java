@@ -77,7 +77,7 @@ public class Caesar {
 	}
 	
 	//return true if the text is encrypted, false otherwise
-	public boolean isValid() {
+	public boolean isEncrypted() {
 		return this.encryptionStatus;
 	}
 	

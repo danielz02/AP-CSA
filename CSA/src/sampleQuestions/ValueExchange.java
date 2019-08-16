@@ -18,6 +18,13 @@ public class ValueExchange {
 		return new ValueExchange(x, y);
 	}
 	
+	//not gonna work
+	public static void changeIt(int x, int y) {
+		int temp = x;
+		x = y;
+		y = temp;
+	}
+	
 	//swap the value of x and y
 	public static ValueExchange changeIt(Integer x, Integer y) {
 		Integer temp = x;
@@ -37,6 +44,12 @@ public class ValueExchange {
 		System.out.println(ValueExchange.changeIt(x, y));
 		ValueExchange a = new ValueExchange(1, 2);
 		System.out.println(a.changeIt());
+		
+		//not gonna work
+		int c = 2;
+		int d = 3;
+		changeIt(c, d);
+		System.out.println("c = " + c + " and d = " + d);
 	}
 }
 

@@ -66,7 +66,19 @@ public class BankAccount {
 		return false;
 	}
 	
+	public String toString() {
+		String result = "Account Number: " + this.accountNum + "\nBalance: " + this.balance;
+		return result;
+	}
+	
 	public static int getTotalAccountNum() {
 		return countAccount;
-	}//Whether a method is static or not depends on whether this method changes the state of an object. 
+	}//Whether a method is static or not depends on whether this method changes the state of an object.
+	
+	public boolean euqals(Object x) {
+		if (this.balance == ((BankAccount)x).balance)
+			return true;
+		else
+			return false;
+	}
 }

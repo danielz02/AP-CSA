@@ -106,6 +106,16 @@ public class NumberStorage {
 		final int MAXSTUDENTS = 25;
 		int[] classList = new int[MAXSTUDENTS];
 		System.out.println(classList);
+		
+		final double pi = 3.14159;
+		double radius = 2.2;
+		double area = pi * (Math.pow(radius, 2.0));
+		System.out.println(area);
+		
+		radius += 1;
+		System.out.println(area);
+		area = pi * (Math.pow(radius, 2.0));
+		System.out.println(area);
 	}
 
 }

@@ -6,6 +6,7 @@ public class Client {
 		BankAccount andy = new BankAccount();
 		System.out.println(daniel.getBalance());
 		System.out.println(BankAccount.getTotalAccountNum());
+
 		
 	
 	/**The difference between 0, null, and void.

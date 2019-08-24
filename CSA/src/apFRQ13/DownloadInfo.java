@@ -31,6 +31,8 @@ public class DownloadInfo {
 		String title = heyJude.getTitle();
 		System.out.println(title);
 		System.out.println(heyJude);
+		heyJude.IncrementTimesDownloaded();
+		System.out.println(heyJude);
 	}
 
 

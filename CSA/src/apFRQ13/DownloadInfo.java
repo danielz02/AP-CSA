@@ -28,6 +28,9 @@ public class DownloadInfo {
 	
 	public static void main(String[] args) {
 		DownloadInfo heyJude = new DownloadInfo("Hey Jude");
+		String title = heyJude.getTitle();
+		System.out.println(title);
 	}
+
 
 }

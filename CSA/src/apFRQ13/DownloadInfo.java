@@ -30,6 +30,7 @@ public class DownloadInfo {
 		DownloadInfo heyJude = new DownloadInfo("Hey Jude");
 		String title = heyJude.getTitle();
 		System.out.println(title);
+		System.out.println(heyJude);
 	}
 
 
